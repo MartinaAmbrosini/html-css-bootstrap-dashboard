@@ -13,13 +13,18 @@ header {
     padding: 10px 0;
 }
 
-#logo_mobile img {
+#logo_mobile {
     width: 50px;
+}
+
+#logo_desktop {
+    width: 155px;
 }
 
 .form{
     position: relative;
 }
+
 
 .form .fa-search{
     position: absolute;
