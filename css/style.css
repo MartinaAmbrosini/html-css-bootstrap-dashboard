@@ -50,8 +50,30 @@ main {
     border:none;
 }
 
+.breadcrumb a {
+    color: aliceblue; 
+    text-decoration: none;
+    font-size: 12px;
+    padding: 1px 8px;;
+    background-color: #165bba;
+    border-radius: 20px;
+    
+}
+
+
 @media all and (min-width: 992px) {
     .offcanvas {
         max-width: 40vw;
+    }
+
+    .col-py-3 {
+        max-width: calc(100vw - 150px);
+    }
+}
+
+@media all and (min-width: 768px) {
+    
+    .col-py-3 {
+        max-width: calc(100vw - 150px);
     }
 }
