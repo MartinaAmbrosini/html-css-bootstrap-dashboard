@@ -11,6 +11,11 @@
 header {
     background-color: #f8f9fa;
     padding: 10px 0;
+    height: 90px;
+}
+
+main {
+    height: calc(100vh - 90px);
 }
 
 #logo_mobile {
@@ -43,4 +48,10 @@ header {
 .form-input:focus{
     box-shadow: none;
     border:none;
+}
+
+@media all and (min-width: 992px) {
+    .offcanvas {
+        max-width: 40vw;
+    }
 }
