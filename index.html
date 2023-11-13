@@ -28,7 +28,7 @@
                 <input type="text" class="form-control form-input w-100" placeholder="Prova a cercare: Lezioni di Laravel" style="background-color: #e5e5e5;">
               </div>   
             </div>
-            <div class="col-1 justify-content-sm-end ">
+            <div class="col-1">
               <ul class="navbar-nav flex-row justify-content-lg-between justify-content-between justify-content-md-end">
                 <li class="nav-item me-3 me-lg-1 d-none d-sm-none d-md-none d-lg-block">
                   <a class="nav-link d-sm-flex align-items-sm-center" href="#">
@@ -73,30 +73,30 @@
     <main>
       <div class="container-fluid">
         <div class="row flex-nowrap">
-          <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0"  style="background-color: #0b2339; max-width: 150px;">
-            <div class="d-flex flex-column align-items-center align-items-sm-start justify-content-between px-3 pt-2 text-white" style="min-height: calc(100vh - 90px);">
-              <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+          <div class="col-auto col-lg-3  px-0"  style="background-color: #0b2339; background-image: url(img/sidebar-bg.png); max-width: 150px;">
+            <div class="d-flex flex-column align-items-center justify-content-between px-3 pt-2 text-white" style="min-height: calc(100vh - 90px);">
+              <ul class="nav nav-pills flex-column mb-lg-auto mb-0 align-items-center align-items-lg-start" id="menu">
                 <li class="nav-item">
                   <a href="#" class="nav-link align-middle px-0">
-                    <i class="fas fa-house" style="color: white;"></i> <span class="ms-lg-1 px-1 d-none d-sm-inline" style="color: white;">Home</span>
+                    <i class="fas fa-house" style="color: white;"></i> <span class="ms-lg-1 px-1 d-none d-lg-inline" style="color: white;">Home</span>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link align-middle px-0">
-                    <i class="fas fa-chart-simple" style="color: white;"></i> <span class="ms-lg-1 d-none px-2 d-sm-inline" style="color: white;">Stats</span>
+                    <i class="fas fa-chart-simple" style="color: white;"></i> <span class="ms-lg-1 d-none px-2 d-lg-inline" style="color: white;">Stats</span>
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link align-middle px-0">
-                    <i class="fas fa-signal" style="color: white;"></i> <span class="ms-lg-1 px-1 d-none d-sm-inline" style="color: white;">Signals</span>
+                    <i class="fas fa-signal" style="color: white;"></i> <span class="ms-lg-1 px-1 d-none d-lg-inline" style="color: white;">Signals</span>
                   </a>
                 </li>
               </ul>
-              <ul class="nav nav-pills flex-column mb-3 align-items-center align-items-sm-start" id="menu">
+              <ul class="nav nav-pills flex-column mb-3 align-items-center" id="menu">
                 <li class="nav-item">
                   <a href="#" class="nav-link align-middle px-0">
                     <i class="fas fa-gear" style="color: white;"></i>
-                    <span class="ms-lg-1 px-1 d-none d-sm-inline" style="color: white;">Admin</span>
+                    <span class="ms-lg-1 px-1 d-none d-lg-inline" style="color: white;">Admin</span>
                 </a>
                 </li>
               </ul>
@@ -208,10 +208,115 @@
                 </div>
               </div>
             </div>
+            <section class="container-fluid py-4">
+              <div class="row d-flex flex-column flex-lg-row">
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-header">
+                      <h3>Prossime Classi</h3>
+                    </div>
+                    <div class="card-body">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col" class="col-6 col-md-5 col-lg-8">Nome</th>
+                            <th scope="col" class="d-none col-md-2 col-lg-1 d-md-table-cell text-center">Data Inizio</th>
+                            <th scope="col" class="d-none col-md-1 col-lg-1 d-md-table-cell text-center">ROI</th>
+                            <th scope="col" class="col-3 col-md-1 col-lg-1 text-center">Stato</th>
+                            <th scope="col" class="col-3 col-md-3 col-lg-1 text-center">Azioni</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><img src="img/class-avatar.jpg" alt=""> Classe 75</td>
+                            <td class="d-none d-md-table-cell text-center">15 Feb 2021</td>
+                            <td class="d-none d-md-table-cell text-center">20%</td>
+                            <td class="text-center"><label class="done">Done</label></td>
+                            <td class="text-center">
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-pencil"></i></button>
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-trash fa-xs"></i></button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><img src="img/class-avatar.jpg" alt=""> Classe 76</td>
+                            <td class="d-none d-md-table-cell text-center">16 Feb 2021</td>
+                            <td class="d-none d-md-table-cell text-center">20%</td>
+                            <td class="text-center"><label class="done">Done</label></td>
+                            <td class="text-center">
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-pencil"></i></button>
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-trash fa-xs"></i></button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><img src="img/class-avatar.jpg" alt=""> Classe 77</td>
+                            <td class="d-none d-md-table-cell text-center">17 Feb 2021</td>
+                            <td class="d-none d-md-table-cell text-center">20%</td>
+                            <td class="text-center"><label class="process">Process</label></td>
+                            <td class="text-center">
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-pencil"></i></button>
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-trash fa-xs"></i></button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><img src="img/class-avatar.jpg" alt=""> Classe 78</td>
+                            <td class="d-none d-md-table-cell text-center">18 Feb 2021</td>
+                            <td class="d-none d-md-table-cell text-center">20%</td>
+                            <td class="text-center"><label class="done">Done</label></td>
+                            <td class="text-center">
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-pencil"></i></button>
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-trash fa-xs"></i></button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><img src="img/class-avatar.jpg" alt=""> Classe 79</td>
+                            <td class="d-none d-md-table-cell text-center">19 Feb 2021</td>
+                            <td class="d-none d-md-table-cell text-center">20%</td>
+                            <td class="text-center"><label class="failed">Failed</label></td>
+                            <td class="text-center">
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-pencil"></i></button>
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-trash fa-xs"></i></button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><img src="img/class-avatar.jpg" alt=""> Classe 80</td>
+                            <td class="d-none d-md-table-cell text-center">20 Feb 2021</td>
+                            <td class="d-none d-md-table-cell text-center">20%</td>
+                            <td class="text-center"><label class="done">Done</label></td>
+                            <td class="text-center">
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-pencil"></i></button>
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-trash fa-xs"></i></button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><img src="img/class-avatar.jpg" alt=""> Classe 81</td>
+                            <td class="d-none d-md-table-cell text-center">21 Feb 2021</td>
+                            <td class="d-none d-md-table-cell text-center">20%</td>
+                            <td class="text-center"><label class="failed">Failed</label></td>
+                            <td class="text-center">
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-pencil"></i></button>
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-trash fa-xs"></i></button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><img src="img/class-avatar.jpg" alt=""> Classe 82</td>
+                            <td class="d-none d-md-table-cell text-center">22 Feb 2021</td>
+                            <td class="d-none d-md-table-cell text-center">20%</td>
+                            <td class="text-center"><label class="done">Done</label></td>
+                            <td class="text-center">
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-pencil"></i></button>
+                              <button type="button" class="btn btn-outline-secondary d-inline-flex justify-content-center align-items-center"><i class="fas fa-trash fa-xs"></i></button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>  
         </div> <!--end row-->
-      </div> <!--end container fluid-->
-      
+      </div> <!--end container fluid-->     
     </main>
 </body>
 </html>

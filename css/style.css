@@ -60,8 +60,41 @@ main {
     
 }
 
+.table img {
+    width: 30px;
+    margin-right: 4px;
+}
 
-@media all and (min-width: 992px) {
+.done {
+    background-color: #198754;
+    border-radius: 10px;
+    padding: 2px 8px;
+    color: white;
+    font-size: 0.75em;
+}
+
+.process {
+    background-color: #ffc107;
+    border-radius: 10px;
+    padding: 2px 8px;
+    color: white;
+    font-size: 0.75em;
+}
+
+.failed {
+    background-color: #dc3545;
+    border-radius: 10px;
+    padding: 2px 8px;
+    color: white;
+    font-size: 0.75em;
+}
+
+.table .btn {
+    max-width: 20px;
+    aspect-ratio: 1 / 1;
+}
+
+@media screen and (min-width: 992px) {
     .offcanvas {
         max-width: 40vw;
     }
@@ -71,9 +104,9 @@ main {
     }
 }
 
-@media all and (min-width: 768px) {
-    
+@media screen and (max-width: 991px) { 
     .col-py-3 {
-        max-width: calc(100vw - 150px);
+        max-width: calc(100vw - 52px);
     }
 }
+
