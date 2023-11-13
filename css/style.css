@@ -12,6 +12,9 @@ header {
     background-color: #f8f9fa;
     padding: 10px 0;
     height: 90px;
+    position: fixed; 
+    width: 100vw;
+    z-index: 2;
 }
 
 main {
@@ -101,12 +104,14 @@ main {
 
     .col-py-3 {
         max-width: calc(100vw - 150px);
+        margin-left: 150px;
     }
 }
 
 @media screen and (max-width: 991px) { 
     .col-py-3 {
         max-width: calc(100vw - 52px);
+        margin-left: 52px;
     }
 }
 
