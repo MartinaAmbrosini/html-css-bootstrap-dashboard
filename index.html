@@ -18,36 +18,36 @@
       <nav class="navbar navbar-light bg-white">
         <div class="container-xs container-md container-lg" style="max-width: 1920px;">
           <div class="row d-flex justify-content-between align-items-center w-100 d-lg-flex justify-content-lg-between">
-            <div class="col-2">
+            <div class="col-auto ">
               <img src="img/mobile-logo.png" class="d-lg-none" id="logo_mobile" alt="">
               <img src="img/logo.svg" alt="" id="logo_desktop" class="d-none d-sm-none d-md-none d-lg-block">
             </div>
-            <div class="col-9">
+            <div class="col">
               <div class="form">
                 <i class="fa fa-search" style="color: black;"></i>
                 <input type="text" class="form-control form-input w-100" placeholder="Prova a cercare: Lezioni di Laravel" style="background-color: #e5e5e5;">
               </div>   
             </div>
-            <div class="col-1">
-              <ul class="navbar-nav flex-row justify-content-lg-between justify-content-between justify-content-md-end">
+            <div class="col-auto">
+              <ul class="navbar-nav d-flex flex-row justify-content-between">
                 <li class="nav-item me-3 me-lg-1 d-none d-sm-none d-md-none d-lg-block">
-                  <a class="nav-link d-sm-flex align-items-sm-center" href="#">
+                  <a class="nav-link d-sm-flex align-items-sm-center" style="margin-right: 6px;" href="#">
                     <i class="fa-solid fa-list" style="color: #5b5858;"></i>
                   </a>
                 </li>
                 <li class="nav-item me-3 me-lg-1 d-none d-sm-none d-md-none d-lg-block ">
-                  <a class="nav-link d-sm-flex align-items-sm-center" href="#">
+                  <a class="nav-link d-sm-flex align-items-sm-center" style="margin-right: 6px;" href="#">
                     <i class="fa-solid fa-circle-question" style="color: #5b5858;"></i>
                   </a>
                 </li>
                 <li class="nav-item me-3 me-lg-1 d-sm-none d-none d-md-none d-lg-block">
-                  <a class="nav-link d-sm-flex align-items-sm-center" href="#">
+                  <a class="nav-link d-sm-flex align-items-sm-center" style="margin-right: 6px;" href="#">
                     <i class="fa-solid fa-ellipsis-vertical" style="color: #5b5858;"></i>
                   </a>
                 </li>
                 <li class="nav-item">
                   <div class="dropdown">
-                    <a class="btn dropdown-bs-toggle hidden-arrow p-0" href="#"
+                    <a class="btn dropdown-bs-toggle hidden-arrow p-0" style="margin-right: 6px;" href="#"
                     id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" >
                         <i class="fas fa-bell" style="color: #ff8f00;"></i>
                     </a>
@@ -323,7 +323,7 @@
                               Come aggiungere un nuovo studente?
                             </button>
                           </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div id="collapseOne" class="accordion-collapse collapse hide" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                               <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                             </div>
